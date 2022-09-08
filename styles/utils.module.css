@@ -21,8 +21,8 @@
 }
 
 .headingMd {
-  font-size: 1.2rem;
-  line-height: 1.5;
+  width:100%;
+  text-align: left;
 }
 
 .borderCircle {
@@ -49,4 +49,29 @@
 
 .lightText {
   color: #666;
+}
+
+.sectionDiv {
+display: -webkit-flex;
+display: flex;
+width:100%;
+border: 1px outset black; 
+}
+
+.rowColumn1 {
+width:100%;
+-ms-flex: 4;
+flex: 4;
+text-align: left;
+
+
+}
+
+.rowColumn2 {
+width:100%;
+-ms-flex: 6;
+flex: 6;
+text-align: left;
+border: 1px outset black;
+
 }
